@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+}
+
+#header {
+    height: 90vh;
+    background-image: url(/assets/imgs/bg-header.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+#header nav {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#header nav ul {
+    display: flex;
+    list-style: none;
+}
+
+#header nav ul a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    background-color: rgba(128, 128, 128, .6);
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 400;
+}
+
+#header nav ul a:hover {
+    background-color: rgb(112, 112, 112);
+    font-weight: 500;
+}
+
+#header .header-text h1 {
+    font-size: 4rem;
+    margin: 20px auto;
+}
+
+#header .header-text h3 {
+    font-size: 2rem;
+}
+
+#header .header-contact img {
+    width: 5%;
+    margin: 0 10px;
+}
+
+#header .header-contact img:hover {
+    background-color: rgba(128, 128, 128, .6);
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.content {
+    text-align: center;
+    margin: auto;
+}
+
+#skaters {
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+
+#skaters img {
+    width: 25%;
+    height: 100%;
+}
+
+#skaters .skaters-text {
+    margin: 0 20px;
+    
+}
+
+#skaters .skaters-text h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+.owl-carousel .item {
+    border: 1px dashed gray;
+}
+
+#cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#cards .cards-box {
+    width: 20%;
+    margin: 20px;
+}
+
+#cards-product {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    margin: 40px 0;
+}
+
+#cards-product .cards-clothing {
+    margin: auto;
+    text-align: center;
+}
+
+#email {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(126, 23, 23);
+    font-size: 1.8rem;
+    color: #fff;
+    padding: 20px;
+}
+
+#email img {
+    width: 7%;
+    margin: 10px;
+}
+
+#email p {
+    margin: 10px;
+}
+
+#email input {
+    height: 1rem;
+    line-height: .5rem;
+    border-radius: 25px;
+    background-color: #fff;
+    color: #000;
+}
+
+#email input[type="submit"]{
+    padding: 15px 20px 20px 20px;
+    text-align: center;
+    font-size: 1rem;
+    cursor: pointer;
+    margin: 10px;
+}
+
+#email input[type="submit"]:hover {
+    background-color: rgba(128, 128, 128, .6);
+    color: #fff;
+}
+
+#footer .footer-content {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+#footer .footer-content .footer-location {
+    width: 50%;
+}
+
+#footer .footer-content .footer-contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    width: 50%;
+}
+
+#footer .footer-content .footer-contact ul {
+    list-style: none;
+}
+
+
+#footer .footer-content .footer-contact img{
+    width: 10%;
+}
+
+#footer .footer-content .footer-contact .pay-cards img {
+    margin: 20px;
+}
+
+#footer .dev {
+    text-align: center;
+    font-size: .8rem;
+}
+
+#footer .dev a {
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+}

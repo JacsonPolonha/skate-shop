@@ -1,0 +1,152 @@
+@media (max-width: 480px){
+    .content {
+        width: 100%;
+    }
+
+    /* #header {
+        background-size: contain;
+        background-repeat: no-repeat;
+    } */
+
+    #header {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+    }
+
+    #header .header-contact {
+        margin-top: 40%;
+    }
+
+    #header nav {
+        display: none;
+    }
+
+    #header .header-contact img {
+        width: 15%;
+        margin: 0 10px;
+    }
+
+    #skaters {
+        flex-direction: column;
+    }
+
+    #skaters img {
+        width: 100%;
+    }
+
+    #cards {
+        flex-wrap: wrap;
+    }
+    #cards .cards-box {
+        width: 100%;
+    }
+
+    #cards-product {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #email {
+        flex-direction: column;
+    }
+
+    #footer .footer-content {
+        flex-direction: column;
+    }
+
+    #footer .footer-content .footer-location {
+        width: 100%;
+    }
+
+    #footer .footer-content .footer-location iframe {
+        width:100%;
+    }
+
+    #footer .footer-content .footer-contact {
+        width: 100%;
+    }
+}
+
+
+
+@media (min-width: 481px) and (max-width: 768px){
+    #header {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+    }
+
+    #header nav {
+        display: none;
+    }
+
+    #header .header-contact {
+        margin-top: 40%;
+    }
+
+    #header .header-contact img {
+        width: 15%;
+        margin: 0 10px;
+    }
+
+    #skaters {
+        flex-direction: column;
+    }
+
+    #skaters img {
+        width: 100%;
+    }
+
+    #cards {
+        flex-wrap: wrap;
+    }
+
+    #cards .cards-box {
+        width: 30%;
+        margin: 20px;
+    }
+
+    #cards-product {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    #email {
+        flex-direction: column;
+    }
+
+    #footer .footer-content {
+        flex-direction: column;
+    }
+
+    #footer .footer-content .footer-location {
+        width: 100%;
+    }
+
+    #footer .footer-content .footer-location iframe {
+        width:100%;
+    }
+
+    #footer .footer-content .footer-contact {
+        width: 100%;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1092px) {
+    #email {
+        flex-direction: column;
+    }
+
+    #footer .footer-content .footer-location {
+        width: 50%;
+    }
+
+    #footer .footer-content .footer-location iframe {
+        width:100%;
+    }
+
+    #footer .footer-content .footer-contact {
+        width: 50%;
+    }
+}
