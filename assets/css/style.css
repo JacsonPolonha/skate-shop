@@ -89,6 +89,10 @@
     font-size: 1.8rem;
 }
 
+#skaters .skaters-text p {
+    font-size: 1.3rem;
+}
+
 .owl-carousel .item {
     border: 1px dashed gray;
 }
@@ -103,6 +107,7 @@
 #cards .cards-box {
     width: 20%;
     margin: 20px;
+    font-size: 1.1rem;
 }
 
 #cards-product {
@@ -113,8 +118,9 @@
 }
 
 #cards-product .cards-clothing {
-    margin: auto;
+    margin: 10px;
     text-align: center;
+    font-size: 1.1rem;
 }
 
 #email {
